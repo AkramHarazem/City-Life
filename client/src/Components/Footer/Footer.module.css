@@ -1,0 +1,14 @@
+@media screen and (min-width: 760px) {
+    .myComponent {
+      text-align: right;
+    }
+  }
+
+.underLine {
+  text-decoration: none;
+} 
+.underLine:hover {
+  text-decoration: underline;
+  color: rgb(72, 182, 246) !important;
+} 
+

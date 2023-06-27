@@ -1,0 +1,96 @@
+.dFlex {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+  border-radius: 10px;
+}
+
+
+
+.img {
+  width: 50% 50%;
+}
+
+.sliderText {
+  position: absolute;
+  top: 20vh;
+  left: 20px;
+  padding-left: 20px;
+  z-index: 2;
+}
+
+.bar {
+  position: relative;
+  width: 7px;
+  height: 50px;
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+  margin: 20px 0px;
+  
+}
+
+
+.layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+
+}
+
+.catOP {
+  transition: filter 0.3s ease-in-out;
+}
+.catOP:hover {
+  filter: brightness(70%);
+}
+
+.fau:hover {
+  color: #808589; /* Apply your desired color on hover */
+}
+
+.faShopping:hover {
+  color: #c4d8e9; /* Apply your desired color on hover */
+}
+
+.faShirt:hover {
+  color: #dbeb04; /* Apply your desired color on hover */
+}
+
+.faHeart:hover {
+  color: #df0416; /* Apply your desired color on hover */
+}
+
+.faTennis:hover {
+  color: #ff0303; /* Apply your desired color on hover */
+}
+
+.faWrench:hover {
+  color: #4d4a4a; /* Apply your desired color on hover */
+}
+
+.faHouse:hover {
+  color: #1c19da; /* Apply your desired color on hover */
+}
+
+.faTruck:hover {
+  color: #09c939; /* Apply your desired color on hover */
+}
+
+
+
+.card {
+  transition: all 0.5s ease-in-out;
+}
+.card:hover {
+  transform:scale(1.03);
+  background-color:#cfcfcf !important ;
+  border-radius: 15px;
+}
+
+
+
+

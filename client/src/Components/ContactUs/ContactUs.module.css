@@ -1,0 +1,27 @@
+/* general */
+.lightFont {
+  font-weight: 400 !important;
+  font-size: 18px;
+}
+.alert {
+  background-color: #dc354627 !important;
+}
+.valid {
+  background-color: #e8f0fe !important;
+  border: none;
+}
+/* Inputs */
+.input {
+  background-color: var(--lightGrey);
+}
+.input:focus {
+  box-shadow: none;
+  transition: all 0.5s ease-in-out;
+  border: 1px solid #112D4E;;
+
+}
+
+.textArea_noResize {
+  resize: none;
+}
+
