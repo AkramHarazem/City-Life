@@ -1,31 +1,30 @@
 # CityLife-Web
 
-CityLife is a React-based responsive website using Bootstrap, developed as an ITI graduation project. It provides comprehensive information about facilities and services in Al Rehab, Cairo, Egypt for residents and Users.
+CityLife-Web is a responsive website built using React and Bootstrap. It serves as an information hub for residents and visitors of Al Rehab, Cairo, Egypt, providing comprehensive details about facilities and services in the city.
 
 ## API data
-All data on our website is real data, we used `json-server` and deployed it on `cyclic`.
+All the data on our website is real and sourced from an API. We utilize `json-server` and have deployed it on `cyclic` to provide seamless access to the data.
 
-## Normal visitor
-can explore all city's services and entertainment, leave feedback, view others' feedback, and submit complaints.
+## Visitor Experience
+As a normal visitor, you can explore all the services and entertainment options available in the city. Additionally, you have the ability to leave feedback, view feedback from others, and submit complaints.
 
-## resident
-can do what regular visitor do besides paying all his bills and subscriptions, submitting complaints to city hall, reserving cinema tickets, booking clinic appointments in any medical center after reservation or booking two emails have been sent to the user and the cinema or medical center, exploring all information about inside and outside city transportation, and more.
+## Resident Experience
+If you are a resident, you can enjoy all the features available to normal visitors, along with additional functionalities. This includes paying bills and subscriptions, submitting complaints directly to the city hall, reserving cinema tickets, and booking clinic appointments. When making reservations or bookings, confirmation emails are sent to both the user and the respective cinema or medical center. Moreover, you can access detailed information about transportation options within and outside the city.
 
 ## Sign up and sign in
-we collect all details of a user to ensure he or she is a resident of the city.
-our sign-up & sign-in operations are integrated with an online API server with generated user tokens.
+To ensure that only residents have access to certain features, we collect detailed information during the sign-up process to verify their residency. Our sign-up and sign-in operations are integrated with an online API server that generates user tokens for authentication.
 
-## Token
-we use tokens to allow users open for example payments & complaints by a protected route technique, also use it to authorize only one account (Admin) to use the dashboard.
+## Token Usage
+Tokens play a crucial role in our website's functionality. They are utilized to grant access to protected routes, such as payments and complaint submissions. Tokens also enable us to authorize a single account (Admin) to access the dashboard.
 
 ## Dashboard
-Admin can edit, delete and add any data to the website, also can receive all feedback, complaints, and contact us messages to filter them and interact with valid ones.
+The dashboard is accessible only to the Admin account. From here, the Admin can edit, delete, and add any data to the website. Additionally, the Admin can review feedback, complaints, and contact messages, allowing them to filter and respond to valid ones.
 
-## Technologies 
-we used `Reactjs`, `bootstrap`, `Material UI`, `json-server`, `stripe` for payment, `i18next` for localization (Arabic and English), `jwt-decode`, `axios` and `uuid`.
+## Technologies Used
+We have employed several technologies in the development of CityLife-Web, including `ReactJS`, `Bootstrap`, `Material UI`, `json-server`, `Stripe` for payment processing, `i18next` for localization in Arabic and English, `jwt-decode` for token decoding, and `axios` for making API requests. The project also utilizes `UUID` for generating unique identifiers.
 
 ## Run the project
-you need only to enter the server folder and open the terminal then write `node server.js start` or `nodemon start` and follow the link, as I linked my client side with the payment server side to run on the same link in our case here `http://localhost:5253/`.
+To run the project locally, navigate to the server folder, open the terminal, and run the command `node server.js start` or `nodemon start`. This will start the server, and you can access the website through the following link: http://localhost:5253/. Alternatively, you can explore our website on this [link](http://16.170.250.23/), as we have deployed it on an AWS EC2 machine to facilitate easy exploration and evaluation.
 
-and you can also explore our website on this [link](http://16.170.250.23/) as I run my project on an AWS EC2 machine to make it easy to explore and check my website  
+We hope you enjoy exploring CityLife-Web and find it helpful in discovering all the services and amenities Al Rehab has to offer.
 
